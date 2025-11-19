@@ -1,0 +1,95 @@
+
+#profileCard {
+    width: 300px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    font-family: Arial, sans-serif;
+}
+
+#profileCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+#profileCard img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+
+#updateNameBtn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    background-color: #4A90E2;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+
+#updateRoleBtn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    background-color: #4A90E2;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+#changeImageBtn{
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    background-color: #4A90E2;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+
+}
+
+#toggleStatusBtn{
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    background-color: #4A90E2;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+
+}
+
+
+#profileCard button:hover {
+    background-color: #357ABD;
+}
+
+
+#toggleStatusBtn.active-status {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    background-color: #232824;
+    color: #f7ff0a;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
