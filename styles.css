@@ -1,12 +1,19 @@
+.card-container {
+    display: flex; /* Makes the container a flex item */
+    justify-content: center; /* Centers the card horizontally */
+    align-items: center; /* Centers the card vertically */
+    height: 100vh; /* Optional: Centers the card in the whole viewport */
+    /* Add some basic styling for the container if needed */
+    background-color: #f0f0f0; 
+}
 
 #profileCard {
     width: 300px;
-    background: #fff;
-    border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
-    overflow: hidden;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
 }
 
 #profileCard:hover {
@@ -81,15 +88,12 @@
 }
 
 
-#toggleStatusBtn.active-status {
-    width: 100%;
-    padding: 10px;
-    margin-top: 15px;
-    border: none;
-    background-color: #232824;
-    color: #f7ff0a;
-    font-size: 15px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background 0.3s ease;
+#profileCard.active-status {
+    width: 300px;
+    padding: 20px;
+    background-color: rgb(16, 255, 251);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.588);
+    border-radius: 8px;
+    text-align: center;
+    font-family: cursive;
 }

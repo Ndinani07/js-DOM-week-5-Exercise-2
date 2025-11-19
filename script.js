@@ -32,7 +32,7 @@ updateRole.addEventListener("click",function(){
 
 const toggleStatus = document.getElementById("toggleStatusBtn")
 toggleStatus.addEventListener("click", function(){
-    var element = document.getElementById("toggleStatusBtn");
+    var element = document.getElementById("profileCard");
     element.classList.toggle("active-status");
 })
 
